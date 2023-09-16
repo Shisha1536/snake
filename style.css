@@ -1,0 +1,21 @@
+body {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 30px;
+}
+.field {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+}
+.grid_parameters {
+    text-align: -webkit-center;
+}
