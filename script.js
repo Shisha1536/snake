@@ -147,7 +147,9 @@ function game() {
                 field.remove();
                 gameOver.remove();
                 btn_newGame.remove();
-                panelRecord.remove();
+                if (panelRecord != undefined){
+                    panelRecord.remove();
+                }
                 game();
             });
         }
