@@ -1,7 +1,7 @@
 body {
     margin: 100px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 input {
     width: 30px;
@@ -18,6 +18,9 @@ input {
 }
 .grid_parameters {
     text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .snakeBody {
     background: rgba(12, 171, 17, 0.6);
