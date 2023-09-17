@@ -153,7 +153,6 @@ function game() {
                 game();
             });
         }
-
         snakeBody[0].classList.add('head');
         for (let i = 0; i < snakeBody.length; i++) {
             snakeBody[i].classList.add('snakeBody');
