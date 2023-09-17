@@ -19,3 +19,15 @@ input {
 .grid_parameters {
     text-align: -webkit-center;
 }
+.snakeBody {
+    background: rgba(12, 171, 17, 0.6);
+    border-radius: 50%;
+}
+.head {
+    background: rgba(11, 112, 15, 0.6);
+    border-radius: 50%;
+}
+.apple {
+    background: rgba(179, 21, 21, 0.6);
+    border-radius: 50%;
+}
